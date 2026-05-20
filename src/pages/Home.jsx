@@ -41,7 +41,7 @@ export default function Home() {
           className="animate-reveal font-display font-extrabold text-6xl md:text-7xl tracking-tighter mb-12"
           style={{ lineHeight: 1.1, animationDelay: '100ms' }}
         >
-          Ever open Spring Week,<br />
+          Every open Spring Week,<br />
           in one place.
         </h1>
         <p className="animate-reveal font-sans text-xl leading-relaxed max-w-xl mb-12" style={{ color: '#737373', animationDelay: '200ms' }}>
