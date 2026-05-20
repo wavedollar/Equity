@@ -39,7 +39,7 @@ export default function Home() {
         </p>
         <h1
           className="animate-reveal font-display font-extrabold text-6xl md:text-7xl tracking-tighter mb-12"
-          style={{ lineHeight: 0.9, animationDelay: '100ms' }}
+          style={{ lineHeight: 1.0, animationDelay: '100ms' }}
         >
           Every open Spring Week,<br />
           in one place.
