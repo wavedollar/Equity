@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.75rem;
+    --background: hsl(0 0% 98%);
+    --foreground: hsl(0 0% 8%);
+    --muted: hsl(0 0% 94%);
+    --muted-foreground: hsl(0 0% 45%);
+    --card: hsl(0 0% 100%);
+    --card-foreground: hsl(0 0% 8%);
+    --primary: hsl(0 0% 8%);
+    --primary-foreground: hsl(0 0% 98%);
+    --secondary: hsl(0 0% 96%);
+    --secondary-foreground: hsl(0 0% 8%);
+    --accent: hsl(12 100% 50%);
+    --accent-foreground: hsl(0 0% 98%);
+    --border: hsl(0 0% 0% / 0.08);
+    --input: hsl(0 0% 0% / 0.08);
+    --ring: hsl(12 100% 50%);
+    --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  * {
+    border-color: rgba(0,0,0,0.08);
+  }
+
+  html, body {
+    background-color: #FAFAFA;
+    color: #141414;
+    font-family: "Inter", system-ui, sans-serif;
+    font-feature-settings: "ss01", "cv11";
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+}
+
+@keyframes revealUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.animate-reveal {
+  animation: revealUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
