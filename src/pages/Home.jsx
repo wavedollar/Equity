@@ -38,7 +38,7 @@ export default function Home() {
           The Ledger · Spring 2027
         </p>
         <h1
-          className="animate-reveal font-display font-extrabold text-6xl md:text-8xl tracking-tighter mb-12"
+          className="animate-reveal font-display font-extrabold text-6xl md:text-7xl tracking-tighter mb-12"
           style={{ lineHeight: 0.9, animationDelay: '100ms' }}
         >
           Every open Spring Week,<br />
